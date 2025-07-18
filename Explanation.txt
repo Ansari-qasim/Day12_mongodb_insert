@@ -1,0 +1,13 @@
+How data is inserted into MongoDB using Mongoose:
+Mongoose provides a high-level abstraction to interact with MongoDB. To insert data:
+
+Define a schema.
+
+Create a model.
+
+Instantiate a model object with data.
+
+Use .save() to insert it into MongoDB.
+
+🔹 Role of Mongoose Models:
+Models are wrappers around schemas. They represent collections in MongoDB and provide methods like .save(), .find(), etc., to interact with the database.
